@@ -29,7 +29,9 @@ module.exports = function(config) {
       plugin: [['tsify', {allowJs: true}]]
     },
 
-
+    mime: {
+      'text/x-typescript': ['ts','tsx']
+    },
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {

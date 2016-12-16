@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import romaner from '../src/Romaner'
+import romaner from '../src/romaner'
 
 describe('romaner', () => {
     let tests = [
